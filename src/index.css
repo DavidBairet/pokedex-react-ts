@@ -1,0 +1,33 @@
+/* Reset simple */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f5f5f5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Très important : plus de max-width ni text-align sur #root */
+#root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.retro-gameboy {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.retro-version {
+  font-family: "Press Start 2P", cursive;
+  color: #92c47d; /* Vert GameBoy */
+
+  letter-spacing: 1px;
+}
+
